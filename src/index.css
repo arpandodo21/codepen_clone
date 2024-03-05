@@ -37,5 +37,5 @@ body{
   border-bottom-right-radius: .5rem;
   border-bottom-left-radius: .5rem;
   background-color: hsl(225, 6%, 13%) !important;
-  overflow: hidden;
+  overflow: scroll;
 }

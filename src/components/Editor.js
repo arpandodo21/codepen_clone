@@ -21,8 +21,8 @@ const Editor = (props) => {
   return (
     <div className="editor-container">
       <div className="editor-title">
-        {displayName}
-        <button>O/C</button>
+        <strong>{displayName}</strong>
+        {/* <button>O/C</button> */}
       </div>
       <ControlledEditor
         onBeforeChange={handleChange}
